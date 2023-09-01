@@ -5,7 +5,7 @@ class Cuenta:
         if saldo > 0:
             self.saldo = saldo
         else:
-            self.saldo = 0
+            self.saldo = 1
 
     def depositar(self, montoDeposito):
         if montoDeposito > 0:
