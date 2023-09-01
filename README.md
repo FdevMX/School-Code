@@ -1,6 +1,6 @@
 # Repositorio de Scripts Universitarios
 
-[![PYTHON.png](https://i.postimg.cc/BbfLBHCD/PYTHON.png)](https://postimg.cc/62zp97g5)
+<img src"[![PYTHON.png](https://i.postimg.cc/BbfLBHCD/PYTHON.png)](https://postimg.cc/62zp97g5)" alt="PYTHON.png" width="10"/>
 <!-- Añade el atributo width para controlar el tamaño de la imagen -->
 <img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
 
