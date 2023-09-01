@@ -1,11 +1,7 @@
 # Repositorio de Scripts Universitarios
 
 <!-- Añade el atributo width para controlar el tamaño de la imagen -->
-<img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
-<img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
-<img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
-
-<div align="center" style="margin-bottom: 20px;"> <!-- Agrega un margen inferior de 20px -->
+<div align="center" style="margin-bottom: 60px;"> <!-- Agrega un margen inferior de 20px -->
   <img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
   <img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
   <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
