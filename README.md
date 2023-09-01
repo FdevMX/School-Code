@@ -1,6 +1,9 @@
 # Repositorio de Scripts Universitarios
 
-![Logo de Python](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Python_logo_notext.svg/1200px-Python_logo_notext.svg.png)
+[![PYTHON.png](https://i.postimg.cc/BbfLBHCD/PYTHON.png)](https://postimg.cc/62zp97g5)
+<!-- Añade el atributo width para controlar el tamaño de la imagen -->
+<img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
+
 
 ¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
 
