@@ -8,7 +8,6 @@
 </div>
 <br> <!-- Agrega un salto de línea -->
 
-
 ¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
 
 ## Contenido
