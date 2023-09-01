@@ -5,11 +5,12 @@
 <img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
 <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
 
-<div align="center">
+<div align="center" style="margin-bottom: 20px;"> <!-- Agrega un margen inferior de 20px -->
   <img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
   <img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
   <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
 </div>
+
 
 
 ¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
