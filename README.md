@@ -1,6 +1,6 @@
 # Repositorio de Scripts Universitarios
 
-¡Bienvenidos a mi repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en las sesiones de la universidad para diferentes asignaturas y proyectos.
+¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
 
 ## Contenido
 
@@ -17,7 +17,7 @@ Para utilizar los scripts en este repositorio, simplemente sigue estos pasos:
 
 2. Haz clic en el nombre del script para ver su contenido.
 
-3. Copia el código y pégalo en tu propio proyecto o entorno de desarrollo.
+3. Copia el código y pégalo en tu propio proyecto o [entorno de desarrollo](https://code.visualstudio.com/).
 
 4. Asegúrate de leer y entender el código antes de usarlo.
 
@@ -30,4 +30,3 @@ Para utilizar los scripts en este repositorio, simplemente sigue estos pasos:
 Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo.
 
 ##¡Espero que encuentres el scripts que buscas!
-
