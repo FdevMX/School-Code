@@ -1,8 +1,9 @@
 # Repositorio de Scripts Universitarios
 
-<img src"[![PYTHON.png](https://i.postimg.cc/BbfLBHCD/PYTHON.png)](https://postimg.cc/62zp97g5)" alt="PYTHON.png" width="10"/>
 <!-- Añade el atributo width para controlar el tamaño de la imagen -->
 <img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
+<img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
+<img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
 
 
 ¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
