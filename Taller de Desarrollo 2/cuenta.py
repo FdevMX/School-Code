@@ -1,3 +1,11 @@
+# Taller de Desarrollo 2
+# Sesion 01 de Septiembre del 2023
+# Codificacion de Clases y Objetos en Python
+# Archivo "cuenta.py"
+# Identificador: 
+# Alfredo Lopez Mendez
+
+
 class Cuenta:
 
     def __init__(self, nombre, saldo):

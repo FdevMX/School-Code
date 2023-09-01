@@ -1,3 +1,11 @@
+# Taller de Desarrollo 2
+# Sesion 01 de Septiembre del 2023
+# Codificacion de Clases y Objetos en Python
+# Archivo "estudiante.py"
+# Identificador: 
+# Alfredo Lopez Mendez
+
+
 class Estudiante:
 
     def __init__(self, nombre, promedio):

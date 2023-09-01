@@ -1,3 +1,11 @@
+# Taller de Desarrollo 2
+# Sesion 01 de Septiembre del 2023
+# Codificacion de Clases y Objetos en Python
+# Archivo "polizaAuto.py"
+# Identificador: 
+# Alfredo Lopez Mendez
+
+
 class PolizaAuto:
 
     def __init__(self, numeroCuenta, marcaYmodelo, estado):
