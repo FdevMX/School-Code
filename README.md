@@ -1,12 +1,16 @@
 # Repositorio de Scripts Universitarios
 
+<br> <!-- Agrega un salto de línea -->
+<br> <!-- Agrega un salto de línea -->
 <!-- Añade el atributo width para controlar el tamaño de la imagen -->
-<div align="center" style="margin-bottom: 60px;"> <!-- Agrega un margen inferior de 20px -->
+<div align="center">
   <img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
   <img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
   <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
 </div>
 
+<br> <!-- Agrega un salto de línea -->
+<br> <!-- Agrega un salto de línea -->
 
 
 ¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
