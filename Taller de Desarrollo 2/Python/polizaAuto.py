@@ -32,12 +32,12 @@ class PolizaAuto:
         return self.estado
 
     def estadoSinCulpa(self):
-        estado_sin_culpa = False
+        estadoSinCulpa = False
 
         if self.obtener_estado() in ("MA", "NJ", "NY", "PA"):
-            estado_sin_culpa = True
+            estadoSinCulpa = True
 
-        return estado_sin_culpa
+        return estadoSinCulpa
 
 
 poliza_auto = PolizaAuto(123456, "Toyota Corolla", "MA")
