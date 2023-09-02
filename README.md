@@ -3,6 +3,8 @@
 <br> <!-- Agrega un salto de línea -->
 <div align="center">
   <img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
+  <img src="https://i.postimg.cc/SNGJmSXk/JAVA.png" alt="PYTHON.png" width="100"/>
+  [![JAVA.png](https://i.postimg.cc/SNGJmSXk/JAVA.png)](https://postimg.cc/zVVJj1Sc)
   <img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
   <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
 </div>
