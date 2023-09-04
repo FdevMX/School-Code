@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Desafio BackEnd"
+		},
+		{
+			"path": "../../../../../Desafio FrontEnd"
+		},
+		{
+			"path": "../../../../../Santuario de Scripts"
+		},
+		{
+			"path": "../../../../../Script Universidad/Script Python/Taller de desarrollo 2"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Desafio FrontEnd"
+	}
+}
