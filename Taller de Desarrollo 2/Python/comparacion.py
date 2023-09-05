@@ -8,10 +8,10 @@
 
 def comparacion():
     # Primer número a comparar
-    numero1 = float(input("Escriba el primer entero: "))
+    numero1 = float(input("Escriba el primer numero: "))
 
     # Segundo número a comparar
-    numero2 = float(input("Escriba el segundo entero: "))
+    numero2 = float(input("Escriba el segundo numero: "))
 
     # Compara los números
     if numero1 == numero2:
