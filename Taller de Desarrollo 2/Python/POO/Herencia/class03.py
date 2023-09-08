@@ -1,7 +1,7 @@
 # Taller de Desarrollo 2
-# Sesion: 07 de Septiembre del 2023
+# Sesion: 08 de Septiembre del 2023
 # Introduccion a POO con Clases
-# Archivo "clase02.py"
+# Archivo "clase03.py"
 # Identificador: Realizar un programa que tenga una clase Persona con las siguientes características. La clase tendrá como atributos el nombre y la edad de una persona. Implementar los métodos necesarios para inicializar los atributos, mostrar los datos e indicar si la persona es mayor de edad o no.
 # Alfredo Lopez Mendez
 
@@ -16,14 +16,15 @@ class Persona:
         
     def mayorEdad(self):
         if self.edad > 18:
-            print(self.nombre + " es mayor de edad\n");
+            print(self.nombre + " es mayor de edad por tener ", self.edad, " años\n");
         else:
-            print(self.nombre + " es menor de edad")
+            print(self.nombre + " es menor de edad por tener ", self.edad, " años\n")
             
 persona = Persona("Owen", 23);
 persona.datos();
 persona.mayorEdad();
 
-persona = Persona("Alan", 16);
+persona = Persona("Alan", 17);
 persona.datos();
 persona.mayorEdad();
+

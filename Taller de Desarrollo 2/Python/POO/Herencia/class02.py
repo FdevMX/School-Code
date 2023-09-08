@@ -1,5 +1,5 @@
 # Taller de Desarrollo 2
-# Sesion: 07 de Septiembre del 2023
+# Sesion: 08 de Septiembre del 2023
 # Introduccion a POO con Clases
 # Archivo "clase02.py"
 # Identificador: Realizar un programa que conste de una clase llamada Alumno que tenga como atributos el nombre y la nota del alumno. Definir los métodos para inicializar sus atributos, imprimirlos y mostrar un mensaje con el resultado de la palab nota y si ha aprobado o no.
