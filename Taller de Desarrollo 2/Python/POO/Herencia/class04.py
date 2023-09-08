@@ -1,7 +1,7 @@
 # Taller de Desarrollo 2
 # Sesion: 08 de Septiembre del 2023
 # Introduccion a POO con Clases
-# Archivo "clase04.py"
+# Archivo "class04.py"
 # Identificador: Desarrollar un programa que cargue los datos de un triángulo. Implementar una clase con los métodos para inicializar los atributos, imprimir el valor del lado con un tamaño mayor y el tipo de triángulo que es (equilátero, isosceles o escaleno).
 # Alfredo Lopez Mendez
 

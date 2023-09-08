@@ -1,7 +1,7 @@
 # Taller de Desarrollo 2
 # Sesion: 07 de Septiembre del 2023
 # Introduccion a POO con Clases
-# Archivo "clase01.py"
+# Archivo "class01.py"
 # Identificador: 
 # Alfredo Lopez Mendez
 
