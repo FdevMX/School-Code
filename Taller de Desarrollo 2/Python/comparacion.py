@@ -2,7 +2,7 @@
 # Sesion: 01 de Septiembre del 2023
 # Codificacion de Clases y Objetos en Python
 # Archivo "comparacion.py"
-# Identificador: 
+# Identificador: Creacion de clase comparacion
 # Alfredo Lopez Mendez
 
 
