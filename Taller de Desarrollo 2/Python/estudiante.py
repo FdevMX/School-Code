@@ -2,7 +2,7 @@
 # Sesion: 01 de Septiembre del 2023
 # Codificacion de Clases y Objetos en Python
 # Archivo "estudiante.py"
-# Identificador: 
+# Identificador: Creacion de clase estudiante
 # Alfredo Lopez Mendez
 
 
