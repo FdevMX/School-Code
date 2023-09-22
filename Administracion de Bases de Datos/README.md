@@ -1,7 +1,7 @@
 # Espacio para MySQL y MySQL Workbench
 
 <p align="center">
-  <img src="https://github.com/FreddMX/resource/blob/main/banner.png" />
+  <img src="http" />
 </p>
 
 ¡Bienvenido a esta seccion del repositorio University Code. En este espacio, encontrarás recursos esenciales para trabajar con bases de datos utilizando MySQL y su herramienta de gestión, MySQL Workbench. Este README te guiará a través de la información clave y los pasos necesarios para aprovechar al máximo este repositorio.
