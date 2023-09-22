@@ -10,6 +10,13 @@ En la parte inferior se pueden ver todos los lenguajes y herramientas que se est
   <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+</p>
+
 
 
 ## Contenido
