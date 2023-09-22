@@ -3,12 +3,12 @@
 <!-- # Hola, ¡bienvenido! :wave: -->
 #
 
-<img src="https://github.com/FreddMX/FreddMX/blob/main/header.png" />
+
 
 
 <!-- <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/> -->
 
-¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
+¡Bienvenido al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
 
 En la parte inferior se pueden ver todos los lenguajes y herramientas que se estan usando en este repositorio. 
 
