@@ -1,9 +1,8 @@
-[![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=Hola,%20¡bienvenido!%20:wave:&width=800&height=350)](https://github.com/Akshay090/svg-banners)
+[![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=Hola,%20¡bienvenido!%20👋&width=800&height=350)](https://github.com/Akshay090/svg-banners)
 
 # Hola, ¡bienvenido! :wave:
 
-
-[![SVG Banners](https://svg-banners.vercel.app/api?type=typeWriter&text1=¡Bienvenidos&al&repositorio&de&scripts👨‍💻&width=800&height=100)](https://github.com/Akshay090/svg-banners)
+[![SVG Banners](https://svg-banners.vercel.app/api?type=typeWriter&text1=¡Bienvenidos%20al%20repositorio%20de%20scripts👋&width=800&height=100)](https://github.com/Akshay090/svg-banners)
 
 
 <!-- <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/> -->
