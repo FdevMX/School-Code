@@ -11,9 +11,7 @@
 <br> <!-- Agrega un salto de línea -->
 
 <p align="center">
-  <a href="https://github.com/FreddMX/University_Code">
-    <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
 </p>
 
 ¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
