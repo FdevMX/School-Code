@@ -1,11 +1,10 @@
 # Espacio para MySQL y MySQL Workbench
 
-<div style="display: flex; justify-content: flex-start; align-items: center;">
-  <img src="https://skillicons.dev/icons?i=mysql" width="400" />
-  <p style="margin-left: 20px;">¡Bienvenido a esta seccion del repositorio University Code. En este espacio, encontrarás recursos esenciales para trabajar con bases de datos utilizando MySQL y su herramienta de gestión, MySQL Workbench. Este README te guiará a través de la información clave y los pasos necesarios para aprovechar al máximo este repositorio.</p>
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql" width="200" />
+</p>
 
-
+¡Bienvenido a esta seccion del repositorio University Code. En este espacio, encontrarás recursos esenciales para trabajar con bases de datos utilizando MySQL y su herramienta de gestión, MySQL Workbench. Este README te guiará a través de la información clave y los pasos necesarios para aprovechar al máximo este repositorio.
 
 ## Contenido del Repositorio
 
