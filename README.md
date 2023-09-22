@@ -1,4 +1,4 @@
-<img src="https://github.com/FreddMX/FreddMX/blob/main/header.png" />
+<img src="https://github.com/FreddMX/resource/blob/main/header.png" />
 
 #
 
