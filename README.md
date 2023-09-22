@@ -4,6 +4,7 @@
 <div align="center">
   <img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
   <img src="https://i.postimg.cc/SNGJmSXk/JAVA.png" alt="JAVA.png" width="100"/>
+  <img src="https://i.postimg.cc/wjSW8cLH/MYSQL.png" alt="MYSQL.png" width="100"/>
   <img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
   <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
 </div>
@@ -15,8 +16,9 @@
 
 El repositorio está organizado en carpetas por asignatura o proyecto específico. A continuación, puedes encontrar una breve descripción de que materias estan incluidas.
 
-- **Taller de Desarrollo 2:** En esta carpeta, encontrarás scripts relacionados con la programación orientada a objetos (clases, métodos, objetos) en [Python](https://www.python.org/).
+- **Administracion de Bases de Datos:** En esta carpeta, encontrarás scripts y diagramas entidad relacion creados para diferentes bases de datos en [MySQL](https://www.mysql.com/).
 
+- **Taller de Desarrollo 2:** En esta carpeta, encontrarás scripts relacionados con la programación orientada a objetos (clases, métodos, objetos) en [Python](https://www.python.org/).
 
 ## Cómo Usar
 
