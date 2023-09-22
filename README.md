@@ -4,7 +4,7 @@
 
 ¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
 
-En la parte inferior se enlistan todos los lenguajes y herramientas que se estan usando en este repositorio. 
+En la parte inferior se pueden ver todos los lenguajes y herramientas que se estan usando en este repositorio. 
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
