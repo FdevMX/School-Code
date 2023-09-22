@@ -4,9 +4,9 @@
 
 <!-- <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/> -->
 
-¡Bienvenido al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
+¡Bienvenido al repositorio de scripts de la universidad! Aquí se aloja toda la colección de scripts que se van desarrollando en las sesiones de las diferentes asignaturas y proyectos.
 
-En la parte inferior se pueden ver todos los lenguajes y herramientas que se estan usando en este repositorio. 
+En la parte inferior podras observar todos los lenguajes y herramientas que se estaran utilizando en este repositorio. 
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
