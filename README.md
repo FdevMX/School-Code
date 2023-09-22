@@ -1,4 +1,10 @@
+[![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=Hola,%20¡bienvenido!%20:wave:&width=800&height=350)](https://github.com/Akshay090/svg-banners)
+
 # Hola, ¡bienvenido! :wave:
+
+
+[![SVG Banners](https://svg-banners.vercel.app/api?type=typeWriter&text1=¡Bienvenidos&al&repositorio&de&scripts👨‍💻&width=800&height=100)](https://github.com/Akshay090/svg-banners)
+
 
 <!-- <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/> -->
 
@@ -9,15 +15,6 @@ En la parte inferior se pueden ver todos los lenguajes y herramientas que se est
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
-</p>
-
-
 
 ## Contenido
 
