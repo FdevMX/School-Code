@@ -11,7 +11,7 @@
 <br> <!-- Agrega un salto de línea -->
 
 <p align="center">
-  <a href="https://skillicons.dev">
+  <a href="https://github.com/FreddMX/University_Code">
     <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
   </a>
 </p>
