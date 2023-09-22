@@ -1,14 +1,20 @@
 # Repositorio de Scripts Universitarios
 
 <br> <!-- Agrega un salto de línea -->
-<div align="center">
+<!-- <div align="center">
   <img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
   <img src="https://i.postimg.cc/SNGJmSXk/JAVA.png" alt="JAVA.png" width="100"/>
   <img src="https://i.postimg.cc/wjSW8cLH/MYSQL.png" alt="MYSQL.png" width="100"/>
   <img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
   <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
-</div>
+</div> -->
 <br> <!-- Agrega un salto de línea -->
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
+  </a>
+</p>
 
 ¡Bienvenidos al repositorio de scripts universitarios! Aquí se aloja toda la colección de scripts que se van desarrollando en la universidad para diferentes asignaturas y proyectos.
 
