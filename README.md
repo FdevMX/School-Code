@@ -22,15 +22,15 @@ El repositorio está organizado en carpetas por asignatura o proyecto específic
 
 ## Cómo Usar
 
-Para utilizar los scripts en este repositorio, simplemente sigue estos pasos:
+Para utilizar los archivos de este repositorio, simplemente sigue estos pasos:
 
-1. Navega a la carpeta que contiene el script que te interesa.
+1. Navega a la carpeta que contiene el script o archivo que te interesa.
 
-2. Haz clic en el nombre del script para ver su contenido.
+2. Haz clic en el nombre del archivo para ver su contenido.
 
-3. Copia el código y pégalo en tu propio proyecto o [entorno de desarrollo](https://code.visualstudio.com/).
+3. Puedes descargarlo o copia el código y pégalo en tu propio proyecto o [entorno de desarrollo](https://code.visualstudio.com/).
 
-4. Asegúrate de leer y entender el código antes de usarlo.
+4. Asegúrate de leer los comentarios y entender el código antes de usarlo.
 
 ## Contribuciones
 
