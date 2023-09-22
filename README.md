@@ -1,6 +1,6 @@
-# Repositorio de Scripts Universitarios
+# Hola, ¡bienvenido! :wave:
 
-<br> <!-- Agrega un salto de línea -->
+
 <!-- <div align="center">
   <img src="https://i.postimg.cc/BbfLBHCD/PYTHON.png" alt="PYTHON.png" width="100"/>
   <img src="https://i.postimg.cc/SNGJmSXk/JAVA.png" alt="JAVA.png" width="100"/>
@@ -8,7 +8,7 @@
   <img src="https://i.postimg.cc/6qV7jqHP/VSC.png" alt="VSC.png" width="100"/>
   <img src="https://i.postimg.cc/ZY6yKsTL/UNACH.png" alt="UNACH.png" width="100"/>
 </div> -->
-<br> <!-- Agrega un salto de línea -->
+
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
