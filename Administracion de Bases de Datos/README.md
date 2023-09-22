@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/FreddMX/resource/blob/main/banner.png" />
+  <img src="https://github.com/FreddMX/resource/blob/main/mysql.png" />
 </p>
 
 #
