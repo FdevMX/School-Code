@@ -1,5 +1,5 @@
-import numpy as np
-import threading
+import numpy as np # pip install numpy
+import threading # pip install threading
 
 def operacion_en_paralelo(matriz, inicio, fin):
     for i in range(inicio, fin):
