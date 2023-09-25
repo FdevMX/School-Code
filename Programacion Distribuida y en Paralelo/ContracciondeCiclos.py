@@ -1,5 +1,5 @@
-import numpy as np
-import threading
+import numpy as np # pip install numpy
+import threading # pip install threading
 
 # Función para aplicar una operación a un conjunto de elementos de la matriz
 def operacion_en_paralelo(matriz, inicio, fin):
