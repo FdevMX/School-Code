@@ -2,7 +2,7 @@
 # Sesion: 21 de Septiembre del 2023
 # Introduccion a POO con Clases
 # Archivo "class07.py"
-# Identificador: Creacion de la clase cuenta
+# Identificador: Creacion de la clase Cuenta.
 # Alfredo Lopez Mendez
 
 class Cuenta:
