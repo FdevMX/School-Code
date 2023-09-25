@@ -2,7 +2,7 @@
 # Sesion: 21 de Septiembre del 2023
 # Introduccion a POO con Clases
 # Archivo "class06.py"
-# Identificador: 
+# Identificador: Creacion de la clase Agenda
 # Alfredo Lopez Mendez
 
 
