@@ -1,4 +1,12 @@
+# Programacion Distribuida y en Paralelo
+# Sesion: 29 de Septiembre del 2023
+# Codificacion de Clases y Objetos en Python
+# Archivo "Hilos2.py"
+# Identificador: Introduccion a Hilos
+# Alfredo Lopez Mendez
+
 import threading
+
 def function(i):
     print ("function called by thread %i\n" %i)
     return
@@ -11,5 +19,3 @@ for i in range(5):
     t.start()
     t.join()
     
-git config --global user.email freddlopez261@gmail.com
-git config --global user.name FreddMX

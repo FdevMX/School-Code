@@ -1,3 +1,11 @@
+# Programacion Distribuida y en Paralelo
+# Sesion: 29 de Septiembre del 2023
+# Codificacion de Clases y Objetos en Python
+# Archivo "Hilos3.py"
+# Identificador: Introduccion a Hilos
+# Alfredo Lopez Mendez
+
+
 import threading
 import time
 
