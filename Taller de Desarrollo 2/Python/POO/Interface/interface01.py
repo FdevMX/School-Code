@@ -13,7 +13,7 @@ from math import pi
 class Forma(ABC):
     @abstractmethod
     def calcular_area(self):
-        pass;
+        pass
 
 # Implementar la intefaz Forma en la clase circulo
 class Circulo(Forma):
