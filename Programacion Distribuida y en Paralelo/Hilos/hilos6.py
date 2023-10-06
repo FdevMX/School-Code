@@ -18,7 +18,7 @@ import random
 semaphore = threading.Semaphore(0)
 
 def consumer():
-    print ("consumer is waiting.")
+    print ("\nconsumer is waiting.")
     ##Acquire a semaphore
     semaphore.acquire()
     ##The consumer have access to the shared resource

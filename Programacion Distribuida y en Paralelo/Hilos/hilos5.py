@@ -46,7 +46,7 @@ def remover(box,items):
 ## threads and make sure it works
 if __name__ == "__main__":
     items = 5
-    print ("putting %s items in the box " % items)
+    print ("\nputting %s items in the box " % items)
     box = Box()
     t1 = threading.Thread(target=adder,args=(box,items))
     t2 = threading.Thread(target=remover,args=(box,items))
