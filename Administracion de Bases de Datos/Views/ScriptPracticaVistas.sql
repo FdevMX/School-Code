@@ -21,7 +21,8 @@ DROP VIEW clientes_region;
 
 
 
-/*VISTA EMPLEADO DEPARTAMENTOS*/
+
+/*01. VISTA EMPLEADO DEPARTAMENTOS*/
 CREATE VIEW Empleados_Deptos AS
 SELECT
   e.id_empleado AS "Empleado",
@@ -40,7 +41,9 @@ DROP VIEW Empleados_Deptos;
 
 
 
-/*VISTA CLIENTE ORDENES*/
+
+
+/*02. VISTA CLIENTE ORDENES*/
 CREATE VIEW Cliente_Ordenes AS
 SELECT
   c.Nombre AS "Nombre_Cliente",
@@ -55,7 +58,8 @@ DROP VIEW Cliente_Ordenes;
 
 
 
-/*VISTA REGION DEPARTAMENTOS*/
+
+/*03. VISTA REGION DEPARTAMENTOS*/
 CREATE VIEW region_departamentos AS
 SELECT
   r.id_region AS "Número de región",
@@ -71,7 +75,8 @@ DROP VIEW region_departamentos;
 
 
 
-/*NUMERO DE PRODUCTOS*/
+
+/*04. NUMERO DE PRODUCTOS*/
 CREATE VIEW num_productos AS
 SELECT
   dt.id_orden,
