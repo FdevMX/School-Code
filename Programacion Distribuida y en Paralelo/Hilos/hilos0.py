@@ -1,7 +1,7 @@
 # Programacion Distribuida y en Paralelo
 # Sesion: 25 de Septiembre del 2023
 # Codificacion de Clases y Objetos en Python
-# Archivo "ContracciondeCiclos.py"
+# Archivo "hilos0.py"
 # Identificador: Contraccion de ciclos
 # Alfredo Lopez Mendez
 
