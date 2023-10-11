@@ -3,7 +3,7 @@ from queue import Queue
 import time
 import random
 
-print("Alfredo Lopez Mendez 4o M\n")
+print("Alfredo Lopez Mendez 4o M")
 
 class Producer(Thread):
     def __init__(self, queue):
