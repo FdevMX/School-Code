@@ -1,3 +1,11 @@
+# Programacion Distribuida y en Paralelo
+# Sesion: 10 de Septiembre del 2023
+# Codificacion de Clases y Objetos en Python
+# Archivo "hilos12.py"
+# Identificador: -----
+# Alfredo Lopez Mendez
+
+
 from threading import Thread, Event
 from queue import Queue
 import time
