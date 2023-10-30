@@ -1,3 +1,4 @@
+#FACTORIAL
 ###### FUNCION RECURSIVA ######
 num = int(input("Ingresa un número: "))
 
