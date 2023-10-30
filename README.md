@@ -9,7 +9,7 @@
 En la parte inferior podras observar todos los lenguajes y herramientas que se estaran utilizando en este repositorio. 
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,mysql,vscode" width="400" />
+  <img src="https://skillicons.dev/icons?i=python,java,php,mysql,mongodb,vscode" width="400" />
 </p>
 
 ## Contenido
