@@ -1,3 +1,4 @@
+#MENU GENERAL DE LAS DOS OPERACIONES
 def factorial(num):
     if num < 0:
         return "No se puede calcular el factorial de un número negativo"
