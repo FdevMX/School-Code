@@ -1,142 +1,92 @@
-.MODEL SMALL
-.STACK 100H
-.DATA
-MENSAJE1 DB '1. Calcular factorial de un numero',0AH,0DH,'$'
-MENSAJE2 DB '2. Serie de Fibonacci',0AH,0DH,'$'
-MENSAJE3 DB '3. Salir',0AH,0DH,'$'
-MENSAJE4 DB 'Ingrese la opcion: $'
-NUMERO DB ?
-RESDB 10 DUP(?)
-.CODE
-MAIN PROC
-    MOV AX,@DATA
-    MOV DS,AX
-
-MENU:
-    ; Mostrar el menú
-    CALL MOSTRARMENU
-    ; Leer la opción del usuario
-    CALL LEER
-
-    CMP AL,'1'
-    JE CALCULAR_FACTORIAL
-    CMP AL,'2'
-    JE CALCULAR_FIBONACCI
-    CMP AL,'3'
-    JE SALIR
-
-    JMP MENU
-
-CALCULAR_FACTORIAL:
-    ; Solicitar un número para calcular el factorial
-    MOV AH, 09H
-    LEA DX, MENSAJE4
-    INT 21H
-    ; Leer el número
-    CALL LEER
-    ; Llamar a la macro para calcular el factorial
-    CALL CALCULAR_FACTORIAL
-    ; Mostrar el resultado
-    MOV AH, 02H
-    LEA DX, RESDB
-    INT 21H
-    JMP MENU
-
-CALCULAR_FIBONACCI:
-    ; Solicitar el término de la serie de Fibonacci
-    MOV AH, 09H
-    LEA DX, MENSAJE4
-    INT 21H
-    ; Leer el término
-    CALL LEER
-    ; Llamar a la macro para calcular Fibonacci
-    CALL CALCULAR_FIBONACCI
-    ; Mostrar el resultado
-    MOV AH, 02H
-    LEA DX, RESDB
-    INT 21H
-    JMP MENU
-
-SALIR:
-    MOV AH, 4CH
-    INT 21H
-
-MAIN ENDP
-
-; Macro para mostrar el menú
-MOSTRARMENU PROC
-    MOV AH, 09H
-    LEA DX, MENSAJE1
-    INT 21H
-    MOV AH, 09H
-    LEA DX, MENSAJE2
-    INT 21H
-    MOV AH, 09H
-    LEA DX, MENSAJE3
-    INT 21H
-    RET
-MOSTRARMENU ENDP
-
-; Macro para leer un dígito
-LEER PROC
-    MOV AH, 01H
-    INT 21H
-    SUB AL, 48
-    RET
-LEER ENDP
-
-; Macro para calcular el factorial
-CALCULAR_FACTORIAL MACRO
-    ; Código para calcular el factorial
-    MOV CX, NUMERO
-    MOV AX, 1
-
-    FACTORIAL_LOOP:
-        MUL CX
-        LOOP FACTORIAL_LOOP
-
-    ; Guardar el resultado en RESDB
-    MOV DI, OFFSET RESDB
-    MOV BX, 10
-
-    STORE_RESULT:
-        XOR DX, DX
-        DIV BX
-        ADD DL, '0'
-        DEC DI
-        MOV [DI], DL
-        CMP AX, 0
-        JNZ STORE_RESULT
-
-    ENDM
-
-; Macro para calcular Fibonacci
-CALCULAR_FIBONACCI MACRO
-    ; Código para calcular Fibonacci
-    MOV CX, NUMERO
-    MOV AX, 0
-    MOV BX, 1
-
-    FIBONACCI_LOOP:
-        ADD AX, BX
-        MOV DX, AX
-        MOV AX, BX
-        MOV BX, DX
-        LOOP FIBONACCI_LOOP
-
-    ; Guardar el resultado en RESDB
-    MOV DI, OFFSET RESDB
-    MOV BX, 10
-
-    STORE_RESULT:
-        XOR DX, DX
-        DIV BX
-        ADD DL, '0'
-        DEC DI
-        MOV [DI], DL
-        CMP AX, 0
-        JNZ STORE_RESULT
-
-    ENDM
-
-END MAIN
+	section .data
+    menu_prompt db 'User Menu:', 0
+    singleplayer_option db '1. Singleplayer', 0
+    multiplayer_option db '2. Multiplayer', 0
+    options_option db '3. Options', 0
+    exit_option db '4. Exit', 0
+    invalid_option db 'Invalid option. Please try again.', 0
+    newline db 10, 0
+ 
+section .text
+    global _start
+_start:
+    ; Display the user menu
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, menu_prompt
+    mov edx, 11
+    int 0x80
+ 
+    ; Display the singleplayer option
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, singleplayer_option
+    mov edx, 15
+    int 0x80
+ 
+    ; Display the multiplayer option
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, multiplayer_option
+    mov edx, 14
+    int 0x80
+ 
+    ; Display the options option
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, options_option
+    mov edx, 11
+    int 0x80
+ 
+    ; Display the exit option
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, exit_option
+    mov edx, 8
+    int 0x80
+ 
+    ; Read user input
+    mov eax, 3
+    mov ebx, 0
+    mov ecx, input_buffer
+    mov edx, 2
+    int 0x80
+ 
+    ; Check the user input and perform the corresponding action
+    cmp byte [input_buffer], '1'
+    je singleplayer
+    cmp byte [input_buffer], '2'
+    je multiplayer
+    cmp byte [input_buffer], '3'
+    je options
+    cmp byte [input_buffer], '4'
+    je exit
+    jmp invalid_option
+singleplayer:
+    ; Singleplayer logic goes here
+    jmp end
+multiplayer:
+    ; Multiplayer logic goes here
+    jmp end
+options:
+    ; Options logic goes here
+    jmp end
+exit:
+    ; Exit logic goes here
+    jmp end
+invalid_option:
+    ; Display invalid option message
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, invalid_option
+    mov edx, 28
+    int 0x80
+    jmp _start
+end:
+    ; Exit the program
+    mov eax, 1
+    xor ebx, ebx
+    int 0x80
+ 
+section .bss
+    input_buffer resb 2

@@ -1,93 +1,99 @@
+;CODIGO ENSAMBLADOR PARA CALCULAR LA SERIE DE FIBONACCI DE UN NUMERO
+
 .model small
-.stack 64
+.stack 300H
 .data
-	msgEntrada db 0dh,0ah,'Ingresa un numero de un digito: $'
-	void db 0dh, 0ah, '$'
-	msgF db 0dh, 0ah, 'Serie de fibonacci:$'
-	msgUno db 0dh, 0ah, '1$'
-	dato db 0;
-	fb1 db 0;
-	fb2 db 1;
-	fibo db 0;
-	aux db 0
+ msg1 DB 10,13,'Ingresa un numero positivo: $'
+ msg2 DB 10,13,'La serie de Fibonacci es:  $'
+ newline DB 10,13,'$'
+ comma   DB ',$'
+ prev1 DW 1
+ prev2 DW 0
 .code
-	inicio proc
-		mov ax,@data
-		mov ds, ax
-		
-		mov cl, 0
-		
-		mov dx,offset msgEntrada
-		mov ah,09h ;para imprimir cadenas;
-		int 21h
-		
-		mov ah,01h      ;solicito un caracter
-		int 21h
-		sub al,30h      ; realizo el ajuste
-		
-		mov dx,offset msgF
-		mov ah,09h ;para imprimir cadenas;
-		int 21h
-		
-		mov dx,offset msgUno
-		mov ah,09h ;para imprimir cadenas;
-		int 21h
-				
-		mov dx,offset void
-		mov ah,09h ;para imprimir cadenas;
-		int 21h
-    
-		mov dato,al      
-			
-		ciclo:
-			
-			mov al, fb1
-			mov bl, fb2
-			
-			add al,bl
-			add fibo, al
-			
-			call imprime
-			
-			mov al, fb2
-			mov bl, fibo
-			
-			mov fb1, al
-			mov fb2, bl
-			
-			mov fibo,0
-			
-			mov dx,offset void
-			mov ah,09h ;para imprimir cadenas;
-			int 21h
-		
-			inc cl
-			cmp cl, dato
-		jb ciclo
-		
-		mov ax, 4c00h
-		int 21h
-	inicio endp
-	
-	imprime proc
-		mov al, fibo
-		aam
-		mov bx, ax
-			
-		cmp bh, 0 ;Compara bh con 0
-		je imprimeNumero ;Si son iguales salta a imprimeNumero, si no tiene 0 pasa de largo e imprime bh
-					
-			mov dl, bh
-			add dl, 30h
-			mov ah, 02h
-			int 21h
-					
-		imprimeNumero: ;Utilizado si en alguna operacion resulta 09, o un 0 seguido de un nuemro solo imprime el numero
-			mov dl, bl
-			add dl, 30h
-			mov ah, 02h
-			int 21h
-		ret
-	imprime endp
-	
-end inicio
+   print MACRO msg                    ;definicion de macro
+        PUSH AX
+        PUSH DX
+        MOV AH,09H
+        MOV DX,offset msg
+        INT 21H
+        POP DX
+        POP AX
+        ENDM
+.startup
+       print msg1
+       call readnumtoAX
+       mov cx,ax                    ;inicia procesos del programa
+       mov ax,0                   
+       print newline
+       print msg2
+       call displayAX
+       print comma
+       dec cx
+       jz done
+       mov ax,1
+       call displayAX
+       print comma
+       dec cx
+       jz done
+repeat1:
+       mov ax,prev1
+       add ax,prev2
+       call displayAX
+       print comma
+       mov bx,prev1
+       mov prev2,bx
+       mov prev1,ax
+       loop repeat1
+ done:
+.exit
+ readnumtoAX PROC NEAR ;GUARDAR NUM Y AX EN EL PROCEDURE DEF
+PUSH BX
+      PUSH CX
+      MOV CX,10
+      MOV BX,00
+ back:  MOV AH,01H
+        INT 21H
+        CMP AL,'0'
+        JB skip
+        CMP AL,'9'
+        JA skip
+        SUB AL,'0'
+        PUSH AX
+        MOV AX,BX
+        MUL CX
+        MOV BX,AX
+        POP AX
+        MOV AH,00
+        ADD BX,AX
+        JMP back
+skip:
+         MOV AX,BX
+         POP CX
+         POP BX
+         RET
+      readnumtoAX ENDP
+displayAX PROC NEAR                       ;PROCEDIMIENTO DE VISUALIZACIÓN DEL CONTENIDO DE AXE
+     PUSH DX
+     PUSH CX
+     PUSH BX
+     PUSH AX
+     MOV CX,0
+     MOV BX,10
+back1:  MOV DX,0
+        DIV BX
+        PUSH DX
+        INC CX
+        OR AX,AX
+        JNZ back1
+back2:  POP DX
+        ADD DL,30H
+        MOV AH,02H
+        INT 21H
+        LOOP back2
+        POP AX
+        POP BX
+        POP CX
+        POP DX
+        RET
+displayAX ENDP
+END
