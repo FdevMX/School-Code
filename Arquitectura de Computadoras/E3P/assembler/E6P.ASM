@@ -3,8 +3,8 @@
 .model small
 .stack 200H
 .data
- msg1 DB 10,13,'Ingresa un numero: $'
- msg2 DB 10,13,'El factorial es: $'
+ fmsg1 DB 10,13,'Ingresa un numero: $'
+ fmsg2 DB 10,13,'El factorial es: $'
  newline DB '$' 
 .code
 print MACRO msg                ;Definir macros
@@ -15,9 +15,9 @@ print MACRO msg                ;Definir macros
         INT 21H
         POP DX
         POP AX
-        ENDM
+ENDM
 .startup
-       print msg1
+       print fmsg1
        print newline
        CALL readnumtoAX
        mov cx,ax
@@ -28,7 +28,7 @@ ack1:    mul cx
     jmp ack1
     print newline
 done:
-    print msg2
+    print fmsg2
      call displayAX
     .exit
  readnumtoAX PROC NEAR        ;Procedimiento de definición. para leer char a ax reg.

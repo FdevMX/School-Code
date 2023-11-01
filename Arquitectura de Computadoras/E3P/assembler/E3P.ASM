@@ -1,92 +1,96 @@
-	section .data
-    menu_prompt db 'User Menu:', 0
-    singleplayer_option db '1. Singleplayer', 0
-    multiplayer_option db '2. Multiplayer', 0
-    options_option db '3. Options', 0
-    exit_option db '4. Exit', 0
-    invalid_option db 'Invalid option. Please try again.', 0
-    newline db 10, 0
- 
-section .text
-    global _start
-_start:
-    ; Display the user menu
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, menu_prompt
-    mov edx, 11
-    int 0x80
- 
-    ; Display the singleplayer option
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, singleplayer_option
-    mov edx, 15
-    int 0x80
- 
-    ; Display the multiplayer option
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, multiplayer_option
-    mov edx, 14
-    int 0x80
- 
-    ; Display the options option
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, options_option
-    mov edx, 11
-    int 0x80
- 
-    ; Display the exit option
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, exit_option
-    mov edx, 8
-    int 0x80
- 
-    ; Read user input
-    mov eax, 3
-    mov ebx, 0
-    mov ecx, input_buffer
-    mov edx, 2
-    int 0x80
- 
-    ; Check the user input and perform the corresponding action
-    cmp byte [input_buffer], '1'
-    je singleplayer
-    cmp byte [input_buffer], '2'
-    je multiplayer
-    cmp byte [input_buffer], '3'
-    je options
-    cmp byte [input_buffer], '4'
-    je exit
-    jmp invalid_option
-singleplayer:
-    ; Singleplayer logic goes here
-    jmp end
-multiplayer:
-    ; Multiplayer logic goes here
-    jmp end
-options:
-    ; Options logic goes here
-    jmp end
-exit:
-    ; Exit logic goes here
-    jmp end
-invalid_option:
-    ; Display invalid option message
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, invalid_option
-    mov edx, 28
-    int 0x80
-    jmp _start
-end:
-    ; Exit the program
-    mov eax, 1
-    xor ebx, ebx
-    int 0x80
- 
-section .bss
-    input_buffer resb 2
+org 100h
+
+mov bx,0
+
+menu:
+call opciones
+call ciclo
+call mostrar
+jmp menu
+    
+ret
+
+;Mensajes a mostrar
+mensaje db "Elige una opcion... $"
+op1 db "1. Factorial de un Numero$"
+op2 db "2. Serie de Fibonacci$"
+op3 db "3. Salir$"
+
+msg1 db "Calculo de Factorial$"
+msg2 db "Calculo de Fibonacci$"
+error db "Opcion invalida$"
+
+;Ciclar el menu
+ciclo proc near
+call mostrar
+mov ah,01
+int 21h
+cmp al,31h
+je call opcion1
+cmp al,32h
+je call opcion2
+cmp al,33h
+je call opcion3
+jne label error
+ret
+ciclo endp
+
+;Muestra las opciones disponibles
+opciones proc near
+
+mov dx,offset mensaje
+mov ah,09
+int 21h
+
+call mostrar
+mov ah,09
+mov dx,offset op1
+int 21h
+
+call mostrar
+mov ah,09
+mov dx,offset op2
+int 21h
+
+call mostrar
+mov ah,09
+mov dx,offset op3
+int 21h
+
+ret
+opciones endp
+
+;salta un renglon en pantalla
+mostrar proc near
+inc bx
+mov ah,02
+mov dh,bl
+mov dl,0
+int 10h
+ret
+mostrar endp
+
+;Respuestas
+;opcion 1
+opcion1 proc near
+call mostrar
+mov ah,09
+mov dx,offset msg1
+int 21h
+ret
+opcion1 endp
+
+;opcion 2
+opcion2 proc near
+call mostrar
+mov ah,09
+mov dx,offset msg2
+int 21h
+ret
+opcion2 endp
+
+;opcion 4
+opcion3 proc near
+int 20h
+opcion3 endp
+
