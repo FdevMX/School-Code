@@ -8,15 +8,15 @@ El repositorio está organizado en tres secciones:
 
 ### Assembler
 
-En la carpeta `"assembler"`, encontrarás todo el código fuente escrito en ensamblador. Esto incluye el archivo de macros y el archivo principal necesario para la ejecución, que se llama `PROGRAM6.ASM`.
+En la carpeta [`"assembler"`](https://github.com/FreddMX/University_Code/tree/4797d1ea92632023a58035fb4501e16e538b3267/Arquitectura%20de%20Computadoras/EXA3P/assembler), encontrarás todo el código fuente escrito en ensamblador. Esto incluye el archivo de macros y el archivo principal necesario para la ejecución, que se llama [`PROGRAM6.ASM`](https://github.com/FreddMX/University_Code/blob/4797d1ea92632023a58035fb4501e16e538b3267/Arquitectura%20de%20Computadoras/EXA3P/assembler/PROGRAM6.ASM) y el archivo [`MACROSP6.ASM`](https://github.com/FreddMX/University_Code/blob/4797d1ea92632023a58035fb4501e16e538b3267/Arquitectura%20de%20Computadoras/EXA3P/assembler/MACROSP6.ASM).
 
 ### Flowchart
 
-La carpeta `"flowchart"` contiene pseudocódigos y diagramas de flujo creados con PSeInt. El archivo principal, `menu.psc`, te permitirá visualizar el menú con las dos opciones de programas. Si no deseas instalar PSeInt, también hemos proporcionado imágenes de los diagramas de flujo en la carpeta "flowchart image".
+La carpeta [`"flowchart"`](https://github.com/FreddMX/University_Code/tree/4797d1ea92632023a58035fb4501e16e538b3267/Arquitectura%20de%20Computadoras/EXA3P/flowchart) contiene pseudocódigos y diagramas de flujo creados con PSeInt. El archivo principal, [`menu.psc`](https://github.com/FreddMX/University_Code/blob/4797d1ea92632023a58035fb4501e16e538b3267/Arquitectura%20de%20Computadoras/EXA3P/flowchart/menu.psc), te permitirá visualizar el menú con las dos opciones de programas. Si no deseas instalar PSeInt, también hemos proporcionado imágenes de los diagramas de flujo en la carpeta [`"flowchart image"`](https://github.com/FreddMX/University_Code/tree/4797d1ea92632023a58035fb4501e16e538b3267/Arquitectura%20de%20Computadoras/EXA3P/flowchart/flowchart%20image).
 
 ### Python
 
-En la carpeta `"python"`, encontrarás implementaciones en Python de los mismos programas. Hemos proporcionado tres archivos: uno para calcular el factorial de un número, otro para generar la serie de Fibonacci y un archivo principal, `main.py`, que te permitirá seleccionar entre estas opciones de manera similar al programa en ensamblador.
+En la carpeta [`"python"`](https://github.com/FreddMX/University_Code/tree/4797d1ea92632023a58035fb4501e16e538b3267/Arquitectura%20de%20Computadoras/EXA3P/python), encontrarás implementaciones en Python de los mismos programas. Hemos proporcionado tres archivos: uno para calcular el factorial de un número, otro para generar la serie de Fibonacci y un archivo principal, [`main.py`](https://github.com/FreddMX/University_Code/blob/4797d1ea92632023a58035fb4501e16e538b3267/Arquitectura%20de%20Computadoras/EXA3P/python/main.py), que te permitirá seleccionar entre estas opciones de manera similar al programa en ensamblador.
 
 ## Ejecución en Assembler
 
@@ -30,7 +30,7 @@ Para visualizar los pseudocódigos y diagramas de flujo, recomiendo utilizar PSe
 
 ## Ejecución en Python
 
-Los archivos de la carpeta `"python"` se pueden ejecutar en cualquier entorno Python. Recomendamos utilizar Visual Studio Code, que puedes descargar **[aquí](https://code.visualstudio.com/)**.
+Los archivos de la carpeta [`"python"`](https://github.com/FreddMX/University_Code/tree/4797d1ea92632023a58035fb4501e16e538b3267/Arquitectura%20de%20Computadoras/EXA3P/python) se pueden ejecutar en cualquier entorno Python. Recomendamos utilizar Visual Studio Code, que puedes descargar **[aquí](https://code.visualstudio.com/)**.
 
 Para ejecutar los archivos .py, asegúrate de tener Python instalado. Tambien podras descargarlo directamente desde este enlace **[python.org](https://www.python.org/)**.
 
@@ -40,7 +40,7 @@ Y en dado caso de que no dispongas de una computadora para ejecutar estos codigo
 
 - **[W3Schools](https://www.w3schools.com/python/python_compiler.asp)**
 
-##  NOTA
+##  Nota
 
 - :ballot_box_with_check: *Los archivos de Python han sido creados de manera recursiva y no requieren módulos adicionales.*
 
