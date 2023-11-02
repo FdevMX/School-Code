@@ -3,10 +3,10 @@ org 100h
 mov bx,0
 
 menu:
-call opciones
-call ciclo
-call mostrar
-jmp menu
+  call opciones
+  call ciclo
+  call mostrar
+  jmp menu
     
 ret
 
