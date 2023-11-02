@@ -8,15 +8,15 @@ El repositorio está organizado en tres secciones:
 
 ### Assembler
 
-En la carpeta "assembler", encontrarás todo el código fuente escrito en ensamblador. Esto incluye el archivo de macros y el archivo principal necesario para la ejecución, que se llama **`PROGRAM6.ASM`**.
+En la carpeta `"assembler"`, encontrarás todo el código fuente escrito en ensamblador. Esto incluye el archivo de macros y el archivo principal necesario para la ejecución, que se llama **`PROGRAM6.ASM`**.
 
 ### Flowchart
 
-La carpeta "flowchart" contiene pseudocódigos y diagramas de flujo creados con PSeInt. El archivo principal, **`menu.psc`**, te permitirá visualizar el menú con las dos opciones de programas. Si no deseas instalar PSeInt, también hemos proporcionado imágenes de los diagramas de flujo en la carpeta "flowchart image".
+La carpeta `"flowchart"` contiene pseudocódigos y diagramas de flujo creados con PSeInt. El archivo principal, **`menu.psc`**, te permitirá visualizar el menú con las dos opciones de programas. Si no deseas instalar PSeInt, también hemos proporcionado imágenes de los diagramas de flujo en la carpeta "flowchart image".
 
 ### Python
 
-En la carpeta "python", encontrarás implementaciones en Python de los mismos programas. Hemos proporcionado tres archivos: uno para calcular el factorial de un número, otro para generar la serie de Fibonacci y un archivo principal, **`main.py`**, que te permitirá seleccionar entre estas opciones de manera similar al programa en ensamblador.
+En la carpeta `"python"`, encontrarás implementaciones en Python de los mismos programas. Hemos proporcionado tres archivos: uno para calcular el factorial de un número, otro para generar la serie de Fibonacci y un archivo principal, **`main.py`**, que te permitirá seleccionar entre estas opciones de manera similar al programa en ensamblador.
 
 ## Ejecución en Assembler
 
@@ -26,11 +26,11 @@ Si deseas explorar el repositorio completo, puedes visitar el siguiente enlace *
 
 ## Ejecución de los Pseudocódigos en PSeInt
 
-Para visualizar los pseudocódigos y diagramas de flujo, recomendamos utilizar PSeInt, que está disponible para su descarga **[aquí](https://pseint.sourceforge.net/)**.
+Para visualizar los pseudocódigos y diagramas de flujo, recomiendo utilizar PSeInt, que está disponible para su descarga **[aquí](https://pseint.sourceforge.net/)**.
 
 ## Ejecución en Python
 
-Los archivos de la carpeta "python" se pueden ejecutar en cualquier entorno Python. Recomendamos utilizar Visual Studio Code, que puedes descargar **[aquí](https://code.visualstudio.com/)**.
+Los archivos de la carpeta `"python"` se pueden ejecutar en cualquier entorno Python. Recomendamos utilizar Visual Studio Code, que puedes descargar **[aquí](https://code.visualstudio.com/)**.
 
 Para ejecutar los archivos .py, asegúrate de tener Python instalado. Tambien podras descargarlo directamente desde este enlace **[python.org](https://www.python.org/)**.
 
@@ -44,27 +44,13 @@ Y en dado caso de que no dispongas de una computadora para ejecutar estos codigo
 
 *Estos archivos de Python han sido creados de manera recursiva y no requieren módulos adicionales.*
 
-## Estructura del repositorio
-
-EXA3P
-├── assembler
-│   ├── programas individuales
-│   │   ├── FACTORIAL.ASM
-│   │   ├── FIBONACCI.ASM
-│   ├── MACROSP6.ASM
-│   └── PROGRAM6.ASM
-├── flowchart
-│   ├── flowchart Image
-│   │   ├── menu.png
-│   ├── factorial.psc
-│   ├── fibonacci.psc
-│   ├── menu.psc
-├── python
-│   ├── factorial.py
-│   ├── fibonacci.py
-│   └── main.py
-
-
 ## ¡Diviértete!
 
-Explora los diferentes enfoques de estos programas y disfruta aprendiendo sobre ensamblador, programación estructurada y Python. ¡Buena suerte en tu práctica!
+Explora los diferentes enfoques de estos programas y disfruta aprendiendo sobre ensamblador, programación estructurada y Python.
+
+## Sitios de referencia
+>https://2k8618.blogspot.com/
+
+>https://youtu.be/03MDiaX9eSw?si=ZAWLRCZ4cYjPMRHh
+
+>https://youtu.be/7pdDjor5eNs?si=K--iTxE6Zyv2a_XZ
