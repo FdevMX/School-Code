@@ -42,9 +42,9 @@ Y en dado caso de que no dispongas de una computadora para ejecutar estos codigo
 
 ##  NOTA
 
-- [:white_check_mark:] *Los archivos de Python han sido creados de manera recursiva y no requieren módulos adicionales.*
+- :ballot_box_with_check: *Los archivos de Python han sido creados de manera recursiva y no requieren módulos adicionales.*
 
-- [:negative_squared_cross_mark:] *El programa desarrollado en ensamblador tiene un error que no se pudo resolver, y es que al momento del tercer ciclo las opciones se interponen con las opciones del segundo ciclo. Este error lo podras notar en la seccion de capturas de pantalla llamada [ERRORES](https://github.com/FreddMX/University_Code/tree/main/Arquitectura%20de%20Computadoras/EXA3P#errores).*
+- :negative_squared_cross_mark: *El programa desarrollado en ensamblador tiene un error que no se pudo resolver, y es que al momento del tercer ciclo las opciones se interponen con las opciones del segundo ciclo. Este error lo podras notar en la seccion de capturas de pantalla llamada [ERRORES](https://github.com/FreddMX/University_Code/tree/main/Arquitectura%20de%20Computadoras/EXA3P#errores).*
 
 ## Capturas de pantalla
 ### Ejecucion
