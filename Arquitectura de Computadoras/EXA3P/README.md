@@ -54,3 +54,5 @@ Explora los diferentes enfoques de estos programas y disfruta aprendiendo sobre 
 >https://youtu.be/03MDiaX9eSw?si=ZAWLRCZ4cYjPMRHh
 
 >https://youtu.be/7pdDjor5eNs?si=K--iTxE6Zyv2a_XZ
+
+## Capturas de pantalla
