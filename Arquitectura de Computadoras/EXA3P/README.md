@@ -40,13 +40,32 @@ Y en dado caso de que no dispongas de una computadora para ejecutar estos codigo
 
 - **[W3Schools](https://www.w3schools.com/python/python_compiler.asp)**
 
-###  NOTA
+##  NOTA
 
-*Estos archivos de Python han sido creados de manera recursiva y no requieren módulos adicionales.*
+*Los archivos de Python han sido creados de manera recursiva y no requieren módulos adicionales.*
 
-## ¡Diviértete!
+*El programa desarrollado en ensamblador tiene un error que no se pudo resolver, y es que al momento del tercer ciclo las opciones se interponen con las opciones del segundo ciclo. Este error lo podras notar en la seccion de capturas de pantalla llamada ERRORES*
 
-Explora los diferentes enfoques de estos programas y disfruta aprendiendo sobre ensamblador, programación estructurada y Python.
+## Capturas de pantalla
+### Ejecucion
+![](https://github.com/FreddMX/University_Code/blob/33693621ca01cd5d7900e55b97778ddc5a85d0c8/Arquitectura%20de%20Computadoras/EXA3P/screenshot/execute1.png)
+
+![](https://github.com/FreddMX/University_Code/blob/33693621ca01cd5d7900e55b97778ddc5a85d0c8/Arquitectura%20de%20Computadoras/EXA3P/screenshot/execute2.png)
+
+![](https://github.com/FreddMX/University_Code/blob/33693621ca01cd5d7900e55b97778ddc5a85d0c8/Arquitectura%20de%20Computadoras/EXA3P/screenshot/execute3.png)
+
+### Macrollamadas
+
+![](https://github.com/FreddMX/University_Code/blob/33693621ca01cd5d7900e55b97778ddc5a85d0c8/Arquitectura%20de%20Computadoras/EXA3P/screenshot/code1.png)
+
+### Macros
+
+![](https://github.com/FreddMX/University_Code/blob/33693621ca01cd5d7900e55b97778ddc5a85d0c8/Arquitectura%20de%20Computadoras/EXA3P/screenshot/macro1.png)
+
+### Errores
+
+![](https://github.com/FreddMX/University_Code/blob/33693621ca01cd5d7900e55b97778ddc5a85d0c8/Arquitectura%20de%20Computadoras/EXA3P/screenshot/error.png)
+
 
 ## Sitios de referencia
 >https://2k8618.blogspot.com/
@@ -54,5 +73,3 @@ Explora los diferentes enfoques de estos programas y disfruta aprendiendo sobre 
 >https://youtu.be/03MDiaX9eSw?si=ZAWLRCZ4cYjPMRHh
 
 >https://youtu.be/7pdDjor5eNs?si=K--iTxE6Zyv2a_XZ
-
-## Capturas de pantalla
