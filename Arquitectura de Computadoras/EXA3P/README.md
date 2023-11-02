@@ -1,6 +1,6 @@
 # **Lenguaje Ensamblador y Programación Estructurada**
 
-Bienvenido al repositorio de práctica en lenguaje ensamblador, donde explorarás diferentes implementaciones de dos programas clásicos y su equivalente en Python. **`Este proyecto te llevará a través del cálculo del factorial de un número, la serie de Fibonacci y te permitirá elegir entre estas opciones desde un menú principal`**.
+Bienvenido al repositorio de práctica en lenguaje ensamblador, donde explorarás diferentes implementaciones de dos programas clásicos y su equivalente en Python. **Este proyecto te llevará a través del cálculo del factorial de un número, la serie de Fibonacci y te permitirá elegir entre estas opciones desde un menú principal**.
 
 ## **Contenido del Repositorio**
 
@@ -8,19 +8,19 @@ El repositorio está organizado en tres secciones:
 
 ### Assembler
 
-En la carpeta `"assembler"`, encontrarás todo el código fuente escrito en ensamblador. Esto incluye el archivo de macros y el archivo principal necesario para la ejecución, que se llama **`PROGRAM6.ASM`**.
+En la carpeta `"assembler"`, encontrarás todo el código fuente escrito en ensamblador. Esto incluye el archivo de macros y el archivo principal necesario para la ejecución, que se llama `PROGRAM6.ASM`.
 
 ### Flowchart
 
-La carpeta `"flowchart"` contiene pseudocódigos y diagramas de flujo creados con PSeInt. El archivo principal, **`menu.psc`**, te permitirá visualizar el menú con las dos opciones de programas. Si no deseas instalar PSeInt, también hemos proporcionado imágenes de los diagramas de flujo en la carpeta "flowchart image".
+La carpeta `"flowchart"` contiene pseudocódigos y diagramas de flujo creados con PSeInt. El archivo principal, `menu.psc`, te permitirá visualizar el menú con las dos opciones de programas. Si no deseas instalar PSeInt, también hemos proporcionado imágenes de los diagramas de flujo en la carpeta "flowchart image".
 
 ### Python
 
-En la carpeta `"python"`, encontrarás implementaciones en Python de los mismos programas. Hemos proporcionado tres archivos: uno para calcular el factorial de un número, otro para generar la serie de Fibonacci y un archivo principal, **`main.py`**, que te permitirá seleccionar entre estas opciones de manera similar al programa en ensamblador.
+En la carpeta `"python"`, encontrarás implementaciones en Python de los mismos programas. Hemos proporcionado tres archivos: uno para calcular el factorial de un número, otro para generar la serie de Fibonacci y un archivo principal, `main.py`, que te permitirá seleccionar entre estas opciones de manera similar al programa en ensamblador.
 
 ## Ejecución en Assembler
 
-Para ejecutar los programas **`.ASM`**, utilizamos Emu8086. Desafortunadamente el sitio donde se alojaba el programa ya no existe, asi que como alternativa podras descargar el ejecutable **[aqui](https://github.com/FreddMX/Props/blob/a1aff9c8ecaa76ef19356497fe1ecfc77bcaca1b/Archivos%20para%20Lenguaje%20Ensamblador/emu8086.exe)**, no te preocupes, es un repositorio donde aloje el programa para mayor comodidad y seguridad de todos.
+Para ejecutar los programas `.ASM`, utilizamos Emu8086. Desafortunadamente el sitio donde se alojaba el programa ya no existe, asi que como alternativa podras descargar el ejecutable **[aqui](https://github.com/FreddMX/Props/blob/a1aff9c8ecaa76ef19356497fe1ecfc77bcaca1b/Archivos%20para%20Lenguaje%20Ensamblador/emu8086.exe)**, no te preocupes, es un repositorio donde aloje el programa para mayor comodidad y seguridad de todos.
 
 Si deseas explorar el repositorio completo, puedes visitar el siguiente enlace **[PROPS](https://github.com/FreddMX/Props)**, en el encontraras varios archivos que te podrian servir en algun momento, ya sea que lo borraste o simplemente no encuentras un lugar seguro donde descargarlo .
 
@@ -44,7 +44,7 @@ Y en dado caso de que no dispongas de una computadora para ejecutar estos codigo
 
 *Los archivos de Python han sido creados de manera recursiva y no requieren módulos adicionales.*
 
-*El programa desarrollado en ensamblador tiene un error que no se pudo resolver, y es que al momento del tercer ciclo las opciones se interponen con las opciones del segundo ciclo. Este error lo podras notar en la seccion de capturas de pantalla llamada [ERRORES] (https://github.com/FreddMX/University_Code/tree/main/Arquitectura%20de%20Computadoras/EXA3P#errores)*
+*El programa desarrollado en ensamblador tiene un error que no se pudo resolver, y es que al momento del tercer ciclo las opciones se interponen con las opciones del segundo ciclo. Este error lo podras notar en la seccion de capturas de pantalla llamada [ERRORES](https://github.com/FreddMX/University_Code/tree/main/Arquitectura%20de%20Computadoras/EXA3P#errores).*
 
 ## Capturas de pantalla
 ### Ejecucion
