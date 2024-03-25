@@ -1,3 +1,5 @@
+; Ejercicio: ((30 + 10) (3 * 2))/ 2 = 120
+
 .model small
 .stack 64
 .data
@@ -17,15 +19,13 @@
 			mov ah, 09h
 			int 21h
 			
-			;((30 + 10) (3 * 2))/ 2 = 120
-			
 			;suma
 			mov al, 1Eh
 			mov bl, 0Ah
 			add al, bl
+			mov num1, al
 			
 			;multiplicacion
-			mov num1, al
 			mov al, 0003
 			mov bl, 0002
 			mul bl
@@ -40,6 +40,7 @@
 			mov bl, 0002
 			div bl
 			
+			;separamos los datos numericos
 			aam
 			mov uni, al
 			mov al, ah

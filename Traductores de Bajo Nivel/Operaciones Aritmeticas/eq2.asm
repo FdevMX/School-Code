@@ -1,3 +1,5 @@
+; Ejercicio: (5 + 10 / 2 - 1) * 5 = 45
+
 .model small
 .stack 64
 .data
@@ -34,6 +36,7 @@
 			mov bl, 0005
 			mul bl
 			
+			;separar datos numericos
 			aam
 			mov bh, ah
 			mov bl, al

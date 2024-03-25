@@ -1,13 +1,11 @@
+; Ejercicio: 2 * 3 + (2 + 4) / 2 = 9
+
 .model small
 .stack 64
 .data
 	msg db "El resultado de la operacion es: $"
 	temp db 0
-; 2 * 3 + (2 + 4) / 2 = 9
 
-;2 = 0002
-;3 = 0003
-;4 = 0004
 .code
 	inicio proc
 		mov ax, @data
@@ -41,6 +39,7 @@
 			mov bl, temp
 			add al, bl
 			
+			;separar datos numericos
 			aam
 			mov bh, ah
 			mov bl, al
@@ -58,5 +57,4 @@
 		mov ax, 04c00h
 		int 21h
 	inicio endp
-
 end inicio
